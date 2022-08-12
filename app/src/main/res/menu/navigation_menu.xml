@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentBold"
+        android:icon="@drawable/format_bold_24px"
+        android:title="Bold"/>
+
+    <item
+        android:id="@+id/fragmentItalic"
+        android:icon="@drawable/format_italic_24px"
+        android:title="Italic"/>
+
+    <item
+        android:id="@+id/fragmentParking"
+        android:icon="@drawable/local_parking_24px"
+        android:title="Parking"/>
+
+    <item
+        android:id="@+id/fragmentTitle"
+        android:icon="@drawable/title_24px"
+        android:title="Title"/>
+
+</menu>
