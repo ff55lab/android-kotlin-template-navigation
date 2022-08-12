@@ -5,8 +5,9 @@ This app has the base navigation template to east your initial development. By u
 ### Example of menu structure
 
 + `Menu` Bold
-    + `Sub Screen` Bold 1
+	+ `Sub Screen` Bold 1
 	+ `Sub Screen` Bold 2
+	+ `Navigate` Italic menu
 + `Menu` Italic
 + `Menu` Parking
 + `Menu` Title
