@@ -1,6 +1,6 @@
 # Navigation Template
 
-This app has the base navigation template to east your initial development. By using `BottomNavigationView` and `Navigation Graph`, the app is able to navigate to different menu or to sub-screen through `Fragment`.
+This app has the base navigation template to ease your initial development. By using `BottomNavigationView` and `Navigation Graph`, the app is able to navigate to different menu or to sub-screen through `Fragment`.
 
 ### Example of menu structure
 
