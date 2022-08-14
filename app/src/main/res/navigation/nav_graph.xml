@@ -3,20 +3,37 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragmentBold">
+    app:startDestination="@id/navigationBold">
 
-    <fragment
-        android:id="@+id/fragmentBold"
-        android:name="com.example.navigation.BoldFragment"
-        android:label="FragmentBold"
-        tools:layout="@layout/fragment_bold" >
-        <action
-            android:id="@+id/action_fragmentBold_to_bold1Fragment"
-            app:destination="@id/bold1Fragment" />
-        <action
-            android:id="@+id/action_fragmentBold_to_bold2Fragment"
-            app:destination="@id/bold2Fragment" />
-    </fragment>
+    <navigation android:id="@+id/navigationBold"
+        app:startDestination="@id/fragmentBold">
+        <fragment
+            android:id="@+id/fragmentBold"
+            android:name="com.example.navigation.BoldFragment"
+            android:label="FragmentBold"
+            tools:layout="@layout/fragment_bold">
+            <action
+                android:id="@+id/action_fragmentBold_to_bold1Fragment"
+                app:destination="@id/bold1Fragment" />
+            <action
+                android:id="@+id/action_fragmentBold_to_bold2Fragment"
+                app:destination="@id/bold2Fragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/bold1Fragment"
+            android:name="com.example.navigation.Bold1Fragment"
+            android:label="FragmentBold1"
+            tools:layout="@layout/fragment_bold_1">
+            <action
+                android:id="@+id/action_bold1Fragment_to_bold2Fragment"
+                app:destination="@id/bold2Fragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/bold2Fragment"
+            android:name="com.example.navigation.Bold2Fragment"
+            android:label="FragmentBold2"
+            tools:layout="@layout/fragment_bold_2" />
+    </navigation>
     <fragment
         android:id="@+id/fragmentItalic"
         android:name="com.example.navigation.ItalicFragment"
@@ -32,18 +49,4 @@
         android:name="com.example.navigation.TitleFragment"
         android:label="FragmentTitle"
         tools:layout="@layout/fragment_title" />
-    <fragment
-        android:id="@+id/bold1Fragment"
-        android:name="com.example.navigation.Bold1Fragment"
-        android:label="FragmentBold1"
-        tools:layout="@layout/fragment_bold_1" >
-        <action
-            android:id="@+id/action_bold1Fragment_to_bold2Fragment"
-            app:destination="@id/bold2Fragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/bold2Fragment"
-        android:name="com.example.navigation.Bold2Fragment"
-        android:label="FragmentBold2"
-        tools:layout="@layout/fragment_bold_2" />
 </navigation>

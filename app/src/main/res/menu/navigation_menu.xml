@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/fragmentBold"
+        android:id="@+id/navigationBold"
         android:icon="@drawable/format_bold_24px"
         android:title="Bold"/>
 

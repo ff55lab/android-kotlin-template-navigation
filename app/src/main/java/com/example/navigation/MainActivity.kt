@@ -30,13 +30,13 @@ class MainActivity : AppCompatActivity() {
                     this,
                     navController
                 )
-                setOnItemSelectedListener { item ->
-                    NavigationUI.onNavDestinationSelected(item, navController)
-                    true
-                }
-                setOnItemReselectedListener {
-                    navController.popBackStack(destinationId = it.itemId, inclusive = false)
-                }
+//                setOnItemSelectedListener { item ->
+//                    NavigationUI.onNavDestinationSelected(item, navController)
+//                    true
+//                }
+//                setOnItemReselectedListener {
+//                    navController.popBackStack(destinationId = it.itemId, inclusive = false)
+//                }
             }
         }
     }

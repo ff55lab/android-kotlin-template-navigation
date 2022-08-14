@@ -4,7 +4,7 @@ This app has the base navigation template to ease your initial development. By u
 
 ### Example of menu structure
 
-+ `Menu` Bold
++ `Menu` `Nested navigation graph` Bold
 	+ `Sub Screen` Bold 1
 	+ `Sub Screen` Bold 2
 	+ `Navigate` Italic menu
@@ -13,7 +13,10 @@ This app has the base navigation template to ease your initial development. By u
 + `Menu` Title
 
 ## Navigation Graph
-![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/nav_graph.png)
+![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/nav_graph_1.png)
+
+## Nested Navigation Graph
+![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/nav_graph_2_nested.png)
 
 ## Navigation UI
 
