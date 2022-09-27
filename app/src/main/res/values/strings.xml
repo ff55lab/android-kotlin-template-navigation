@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Navigation Template</string>
+
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="parking">Parking</string>
+    <string name="title">Title</string>
+
+    <string name="fragment_bold">Fragment Bold</string>
+    <string name="bold1">Bold 1</string>
+    <string name="bold2">Bold 2</string>
+    <string name="binding_field">Click binding field</string>
+
+    <string name="fragment_bold_1">Fragment Bold 1</string>
+    <string name="fragment_bold_2">Fragment Bold 2</string>
+    <string name="fragment_italic">Fragment Italic</string>
+    <string name="fragment_parking">Fragment Parking</string>
+    <string name="fragment_title">Fragment Title</string>
 </resources>

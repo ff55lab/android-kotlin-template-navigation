@@ -4,21 +4,21 @@
     <item
         android:id="@+id/navigationBold"
         android:icon="@drawable/format_bold_24px"
-        android:title="Bold"/>
+        android:title="@string/bold"/>
 
     <item
         android:id="@+id/fragmentItalic"
         android:icon="@drawable/format_italic_24px"
-        android:title="Italic"/>
+        android:title="@string/italic"/>
 
     <item
         android:id="@+id/fragmentParking"
         android:icon="@drawable/local_parking_24px"
-        android:title="Parking"/>
+        android:title="@string/parking"/>
 
     <item
         android:id="@+id/fragmentTitle"
         android:icon="@drawable/title_24px"
-        android:title="Title"/>
+        android:title="@string/title"/>
 
 </menu>

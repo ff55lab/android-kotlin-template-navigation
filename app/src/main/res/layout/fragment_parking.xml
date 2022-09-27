@@ -6,6 +6,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="fragment_parking" />
+        android:text="@string/fragment_parking" />
 
 </LinearLayout>

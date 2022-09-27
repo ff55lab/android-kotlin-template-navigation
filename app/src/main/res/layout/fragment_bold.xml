@@ -18,32 +18,32 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="fragment_bold" />
+            android:text="@string/fragment_bold" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> boldFragment.showBold1()}"
-            android:text="Bold 1" />
+            android:text="@string/bold1" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> boldFragment.showBold2()}"
-            android:text="Bold 2" />
+            android:text="@string/bold2" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> boldFragment.showItalic()}"
-            android:text="Italic" />
+            android:text="@string/italic" />
 
         <Button
             android:id="@+id/clickMe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="@{() -> boldFragment.showClickMe()}"
-            android:text="Click binding field" />
+            android:text="@string/binding_field" />
 
     </LinearLayout>
 
