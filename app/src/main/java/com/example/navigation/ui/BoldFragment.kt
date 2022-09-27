@@ -50,4 +50,18 @@ class BoldFragment : Fragment() {
         _main.binding.bottomNavigationView.selectedItemId = R.id.fragmentItalic
     }
 
+    //region Example: Binding view
+
+    fun showClickMe() {
+        // _binding
+        // Accesses all binding views with valid android:id
+
+        // _binding?.clickMe
+        // Accesses to clickMe Button view
+
+        _binding?.clickMe?.text = "done binding me."
+    }
+
+    //endregion
+
 }

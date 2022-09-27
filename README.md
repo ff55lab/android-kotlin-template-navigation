@@ -2,12 +2,16 @@
 
 This app has the base navigation template to ease your initial development. By using `BottomNavigationView` and `Navigation Graph`, the app is able to navigate to different menu or to sub-screen through `Fragment`.
 
+Other available examples:
++ Within `Fragment`, accessing the binding view (`Button` `TextView`) from the `xml` layout.
+
 ### Example of menu structure
 
 + `Menu` `Nested navigation graph` Bold
 	+ `Sub Screen` Bold 1
 	+ `Sub Screen` Bold 2
 	+ `Navigate` Italic menu
+	+ `Button` Click to change binding field text name
 + `Menu` Italic
 + `Menu` Parking
 + `Menu` Title

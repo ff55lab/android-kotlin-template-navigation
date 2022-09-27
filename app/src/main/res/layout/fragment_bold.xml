@@ -38,6 +38,13 @@
             android:onClick="@{() -> boldFragment.showItalic()}"
             android:text="Italic" />
 
+        <Button
+            android:id="@+id/clickMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> boldFragment.showClickMe()}"
+            android:text="Click binding field" />
+
     </LinearLayout>
 
 </layout>
