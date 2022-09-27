@@ -21,3 +21,9 @@ This app has the base navigation template to ease your initial development. By u
 ## Navigation UI
 
 ![](https://github.com/ff55lab/android-kotlin-template-navigation/raw/main/navigation_ui.png)
+
+## Tools
+
+- Android Studio Chipmunk | 2021.2.1 Patch 2
+- Android SDK API Level 31 (Android 12.0)
+- JDK 11.0.15 (64-bit)
