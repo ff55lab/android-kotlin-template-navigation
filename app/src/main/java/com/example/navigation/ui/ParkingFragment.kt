@@ -1,19 +1,20 @@
-package com.example.navigation
+package com.example.navigation.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.navigation.R
 
-class TitleFragment : Fragment() {
+class ParkingFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_title, container, false)
+        return inflater.inflate(R.layout.fragment_parking, container, false)
     }
 
 }

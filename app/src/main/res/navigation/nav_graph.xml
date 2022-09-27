@@ -9,7 +9,7 @@
         app:startDestination="@id/fragmentBold">
         <fragment
             android:id="@+id/fragmentBold"
-            android:name="com.example.navigation.BoldFragment"
+            android:name="com.example.navigation.ui.BoldFragment"
             android:label="FragmentBold"
             tools:layout="@layout/fragment_bold">
             <action
@@ -21,7 +21,7 @@
         </fragment>
         <fragment
             android:id="@+id/bold1Fragment"
-            android:name="com.example.navigation.Bold1Fragment"
+            android:name="com.example.navigation.ui.Bold1Fragment"
             android:label="FragmentBold1"
             tools:layout="@layout/fragment_bold_1">
             <action
@@ -30,23 +30,23 @@
         </fragment>
         <fragment
             android:id="@+id/bold2Fragment"
-            android:name="com.example.navigation.Bold2Fragment"
+            android:name="com.example.navigation.ui.Bold2Fragment"
             android:label="FragmentBold2"
             tools:layout="@layout/fragment_bold_2" />
     </navigation>
     <fragment
         android:id="@+id/fragmentItalic"
-        android:name="com.example.navigation.ItalicFragment"
+        android:name="com.example.navigation.ui.ItalicFragment"
         android:label="FragmentItalic"
         tools:layout="@layout/fragment_italic" />
     <fragment
         android:id="@+id/fragmentParking"
-        android:name="com.example.navigation.ParkingFragment"
+        android:name="com.example.navigation.ui.ParkingFragment"
         android:label="FragmentParking"
         tools:layout="@layout/fragment_parking" />
     <fragment
         android:id="@+id/fragmentTitle"
-        android:name="com.example.navigation.TitleFragment"
+        android:name="com.example.navigation.ui.TitleFragment"
         android:label="FragmentTitle"
         tools:layout="@layout/fragment_title" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.navigation
+package com.example.navigation.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.navigation.R
 import com.example.navigation.databinding.FragmentBold1Binding
 
 class Bold1Fragment : Fragment() {
@@ -13,7 +14,7 @@ class Bold1Fragment : Fragment() {
     private var _binding: FragmentBold1Binding? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val fragmentBinding = FragmentBold1Binding.inflate(inflater, container, false)
         _binding = fragmentBinding
         return fragmentBinding.root

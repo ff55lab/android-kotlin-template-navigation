@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".Bold1Fragment">
+    tools:context=".ui.Bold1Fragment">
 
     <data>
         <variable
             name="bold1Fragment"
-            type="com.example.navigation.Bold1Fragment" />
+            type="com.example.navigation.ui.Bold1Fragment" />
     </data>
 
     <LinearLayout
